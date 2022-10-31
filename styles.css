@@ -1,0 +1,48 @@
+.text-gradient {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: darkblue;
+  }
+  @supports (--css: variables) {
+    .text-gradient {
+      background: linear-gradient(to right, pink, darkorchid, coral 70%);
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+  
+  #mass {
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 3px;
+  }
+  
+  #height {
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 3px;
+  }
+  
+  #BMIb {
+    height: 38px;
+    border: 1px solid red;
+    border-radius: 2px;
+    padding: 3px;
+  }
+  
+  #BMIcontainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 500) {
+    #BMIcontainer {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

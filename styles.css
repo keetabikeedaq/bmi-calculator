@@ -45,7 +45,7 @@
   @media only screen and (max-width: 500) {
     #BMIcontainer {
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
     }
       #mass{
           margin-left:10px;
